@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Easy Recipes</title>
+                <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">                
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/mystyle.css" type="text/css">
+    <!-- Bootstrap -->
+    <!--Not neccesary. DO NOT USE!!!!!!<link href="css/bootstrap.min.css" rel="stylesheet">-->
+                
+            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+            <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+             
+               
+    </head>
+     
+        <body> 
+        
+        
+        <div class="container">
+              
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" a href="index.html">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="susan.html">Breakfast</a>
+                    </li>
+                    <li>
+                        <a href="shanda.html">Lunch</a>
+                    </li>
+                    <li>
+                        <a href="cate.html">Dinner</a>
+                    </li>
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+        
+        <br><br>
+        
+            <!-- <div class="jumbotron jumbotron-background">
+              <h1>Easy Recipes</h1>
+              <h3>Susan, Shanda, Cate</h3>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button"><span class="glypicon glyphicon-plus" aria-hidden="true"></span>Learn more</a></p>
+        </div>end of jumbotron -->  
+            
+           
+            
+     <!--<div class="jumbotron jumbotron-specialso">add picture in its own jumbotron. Shanda-->
+     
+     
+     
+     <h1 align="center">Avocado Toast</h1>
+     
+     
+     <img class="img-responsive img-thumbnail" src="images/avocado-toast-LG.jpg" alt="avocado spread on toast">
+     
+     <p>Serving: 1</br>
+     Prep Time: 5 minutes</br>
+     Total Time: 5 minutes</p>
+     
+     <p><strong>Ingredients:</strong></p>
+     <ul>
+         <li>1 tablespoon unsalted butter, at room temperature</li>
+         <li>1 slice bread*, toasted</li>
+         <li>1/2 ripe avocado, halved, seeded, peeled and thinly sliced</li>
+         <li>1 tablespoons olive oil</li>
+         <li>1 teaspoon sesame seeds</li>
+         <li>1/4 teaspoon crushed red pepper flakes, <em>optional</em></li>
+         <li>Kosher salt and freshly ground black pepper, to taste</li>
+    </ul>
+    
+    <p><strong>Directions:</strong></p>
+    <ol>
+        <li>Spread butter in an even layer on bread.</li>
+        <li>Spread with avocado; drizzle with olive oil and top with sesame seeds and red pepper flakes, if using. Season with salt and pepper, to taste.</li>
+        <li>Serve immediately.</li> 
+    </ol>
+         <hr>
+         
+         <p><em>*Whole wheat, whole grain, gluten-free, or white bread can be used.</em></p>
+     
+     
+     <div class="fmodal" id="gmodal">
+                <p>Send me a message by clicking on the image below!</p>
+                <a href="#myModalOne" data-toggle="modal">
+        <img class="img-responsive" src="images/avocado-toast.jpg" width="20%"></a>
+        
+        <!--Modal Contact Form code-->
+        <div class="modal fade" id="myModalOne" role="dialog">
+           <div class="modal-dialog">
+            <div class="modal-content">
+             <div class="modal-header" >
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    
+                <h4 class="modal-title">Send Susan a message!</h4>
+             </div> <!--End of modal-header-->
+            <div class="modal-body" id="myModalBody">
+                <form id="contactform" role="form" >
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailid">Email ID</label>
+                        <input type="text" id="emailid" placeholder="Email ID"  class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Subject" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="Message" class="form-control"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-success">Send Message</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+        
+        
+        
+        
+    
+   <!-- AddToAny BEGIN -->
+<br> 
+<br>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_pinterest"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->  
+          
+          
+          
+    <!-- Latest compiled and minified JavaScript -->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+<script type="text/javascript" src="js/script.js"></script>       
+                 
+    </body>
+</html>
