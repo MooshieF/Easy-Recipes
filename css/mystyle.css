@@ -87,12 +87,16 @@ hr{
 }
 
 
-.item {
-    width: 1000px;
-    height: 640px;
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+body {
+    background-color: #E8DACF;
 }
-
-
-
 
 

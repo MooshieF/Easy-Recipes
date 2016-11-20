@@ -20,4 +20,10 @@ var tellOpinion=prompt ("Do you think that our recipes are great, awesome, or fa
 document.getElementById("leadme").innerHTML=
 "My name is" + " " +tellName+ " and my favorite meal is " +" " +mealTime+ "." + " I think that your recipes are " + " " +tellOpinion + "!";
 }
-/* lines 13-22 is the code for the share with us button in jumbotron on homepage*/
+/* lines 13-22 is the code for the share with us button on homepage*/
+
+
+function form_submit() {
+    document.getElementById("contactform").submit();
+   }    
+   /* This is the code to make the "send message" button in modal contact form disappear.*/
