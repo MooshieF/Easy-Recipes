@@ -99,4 +99,10 @@ body {
     background-color: #E8DACF;
 }
 
+/*used on Cate and Shanda's pages to center
+recipe title*/
+
+h1{
+    text-align:center;
+}
 
