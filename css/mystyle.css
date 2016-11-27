@@ -106,3 +106,9 @@ h1{
     text-align:center;
 }
 
+.panel-footer{
+ background-color: #080808;
+ font-size: 18px;
+ text-align: center;
+ color:#808080;
+}
